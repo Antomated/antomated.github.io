@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/styles.css" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Anton Petrov</title>
+    <style>
+        body {
+            background-color: rgb(20, 20, 20);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            color: rgb(220, 220, 220);
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            color: rgb(220, 220, 220);
+            text-decoration: underline;
+        }
+
+        .chip a {
+            color: rgb(220, 220, 220);
+            text-decoration: none;
+        }
+
+        .chip {
+            display: inline-block;
+            padding: 0.25em 0.5em;
+            margin: 0.5em;
+            background-color: rgb(30, 30, 30);
+            border-radius: 25px;
+            font-size: 1em;
+            font-weight: bold;
+            color: rgb(220, 220, 220);
+            text-align: center;
+            border: 2px solid rgb(220, 220, 220);
+        }
+
+        .container {
+            margin: 3em auto;
+            padding: 2em;
+            background-color: rgb(30, 30, 30);
+            border-radius: 15px;
+            max-width: 800px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .header .name h2, .info h4, .project h4 {
+            margin: 0;
+        }
+
+        .header .name p, .info p, .project p {
+            margin: 0.5em 0;
+        }
+
+        ul {
+            padding-left: 1.5em;
+        }
+
+        .project {
+            margin-top: 3em;
+            padding-top: 2em;
+            border-top: 1px solid #ccc;
+            font-family: 'Chakra Petch', sans-serif;
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .project h4 {
+            text-align: center;
+            font-size: 2em;
+        }
+
+        .project h4 strong {
+            font-weight: 900;
+        }
+
+        .project p:last-child {
+            text-align: center;
+            margin-top: 2em;
+        }
+
+        .footer {
+            margin-top: 3em;
+            border-top: 1px solid #ccc;
+            padding-top: 1em;
+            text-align: center;
+        }
+
+        .footer a {
+            color: rgb(220, 220, 220);
+            text-decoration: none;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <img class="circle photo" src="img/ic_photo.jpg"/>
+        <div class="name">
+            <h2 id="name">Anton Petrov</h2>
+            <p>iOS Developer</p>
+            <br>
+            <br>
+            <p id="short_bio">🟢 Gdańsk, Poland</p>
+        </div>
+    </div>
+
+    <div class="social">
+        <div class="chip">
+            <span class="material-icons">link</span><a href="https://www.linkedin.com/in/antomated" target="_blank">LinkedIn</a>
+        </div>
+        <div class="chip">
+            <span class="material-icons">code</span><a href="https://github.com/antomated" target="_blank">GitHub</a>
+        </div>
+        <div class="chip">
+            <span class="material-icons">email</span><a href="mailto:antomated@gmail.com" target="_blank">antomated@gmail.com</a>
+        </div>
+        <div class="chip">
+            <span class="material-icons">picture_as_pdf</span><a href="https://drive.google.com/drive/folders/1dgINcM_-UBhGmkvZwEXmAIMOOYNXyDqd?usp=sharing" target="_blank"
+                                                                 id="pdf">Request CV</a>
+        </div>
+    </div>
+
+    <div class="info">
+        <h4 id="about_h4">I am a highly motivated and flexible iOS developer with a versatile technical background.</h4>
+        <br>
+        <br>
+        <ul>
+            <li>3+ years of iOS development experience with diverse commercial and personal projects.</li>
+            <br>
+            <li>Mastering my iOS development skills with a passion for creating exceptional user experiences.</li>
+            <br>
+            <li>Staying up-to-date with the latest Swift advancements and industry trends is essential to me.</li>
+            <br>
+            <li>Continuously improving as an iOS developer to deliver professional and scalable solutions.</li>
+        </ul>
+        <br>
+        <br>
+        <p>Always open to any collaboration and experiments, feel free to <a href="mailto:antomated@gmail.com" target="_blank">reach me</a>.</p>
+        <br>
+        <br>
+        <p>A complete version of my CV with descriptions of my latest commercial projects is available upon <a href="https://drive.google.com/drive/folders/1dgINcM_-UBhGmkvZwEXmAIMOOYNXyDqd?usp=sharing" target="_blank">request</a>.</p>
+    </div>
+
+    <div class="project">
+        <h4><strong>Recent Personal Project - Crypro</strong></h4>
+        <br>
+        <img src="img/crypro_header.png" alt="Crypro project screenshot">
+        <p><strong><a href="https://github.com/Antomated/Crypro" target="_blank">Crypro</a></strong>  is a comprehensive cryptocurrency tracking application designed for iOS users.<br><br>
+        It provides real-time data on top cryptocurrencies, including prices, market trends, and detailed coin information.<br><br>
+        Users can manage their portfolios, track investments, and analyze performance, all within a sleek and intuitive interface.<br><br>
+        The app supports both dark and light modes for a comfortable viewing experience.</p>
+        <br>
+        <p>More info on <a href="https://github.com/Antomated" target="_blank">GitHub</a></p>
+    </div>
+
+    <div class="footer">
+        <p>&copy; <a href="https://github.com/antomated" target="_blank">2024 Antomated</a></p>
+    </div>
+
+</div>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</body>
+</html>
